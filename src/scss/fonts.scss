@@ -1,0 +1,19 @@
+$Montserrat: (400, "Regular"), (500, "Medium"), (600, "SemiBold"), (700, "Bold");
+
+@each $weight, $name in $Montserrat {
+  @font-face {
+    font-family: "Montserrat";
+    src: url(@/assets/fonts/Montserrat/Montserrat-#{$name}.ttf);
+    font-weight: $weight;
+  }
+}
+
+$Poppins: (400, "Regular"), (800, "ExtraBold");
+
+@each $weight, $name in $Poppins {
+  @font-face {
+    font-family: "Poppins";
+    src: url(@/assets/fonts/Poppins/Poppins-#{$name}.ttf);
+    font-weight: $weight;
+  }
+}
