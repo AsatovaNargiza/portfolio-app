@@ -63,7 +63,6 @@ const routes = [
             href="./cv.pdf"
             download="./cv.pdf"
             class="navbar__link-cv"
-            
             >CV</a>
 
           <a
