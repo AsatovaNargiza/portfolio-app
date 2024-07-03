@@ -60,8 +60,8 @@ const routes = [
           </button>
 
           <a
-            href="/public/cv.pdf"
-            download="/public/cv.pdf"
+            href="./cv.pdf"
+            download="./cv.pdf"
             class="navbar__link-cv"
             >CV</a
           >
